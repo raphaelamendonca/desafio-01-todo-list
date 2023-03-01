@@ -1,9 +1,4 @@
-.inputDiv {
-  display: flex;
-  justify-content: center;
-}
-
-.inputArea {
+.input {
   background: var(--gray-500);
   font-size: 1rem;
   padding: 1rem;
@@ -13,7 +8,7 @@
   border-radius: 8px;
 }
 
-.inputArea:focus {
+.input:focus {
   color: var(--gray-100);
   border: 1px solid var(--purple);
 }
