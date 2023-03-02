@@ -16,4 +16,5 @@
 
 .button:hover {
   background: var(--blue);
+  cursor: pointer;
 }
