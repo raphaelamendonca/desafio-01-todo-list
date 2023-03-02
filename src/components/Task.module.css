@@ -1,0 +1,21 @@
+.task {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  width: 736px;
+  height: auto;
+  min-height: 72px;
+  padding: 16px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 24px 632px 24px;
+  gap: 12px;
+  align-items: center;
+}
+
+.trashIcon {
+  cursor: pointer;
+}
+.trashIcon:hover {
+  color: var(--danger);
+}
