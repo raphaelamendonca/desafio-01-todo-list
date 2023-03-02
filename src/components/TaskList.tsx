@@ -11,12 +11,11 @@ export function TaskList() {
       <span className={styles.completedTasks}>
         Concluídas <span>2 de 5</span>
       </span>
-      <div className={styles.teste}>
+      <div className={styles.tasks}>
         <img src={notebookIcon} alt="" className="src" />
         <p>Você ainda não tem tarefas cadastradas</p>
         <p>Crie tarefas e organize seus itens a fazer</p>
       </div>
-      {/* <Task /> */}
     </div>
   );
 }

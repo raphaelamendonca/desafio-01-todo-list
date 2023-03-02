@@ -37,7 +37,7 @@
   color: var(--gray-100);
   font-size: 0.75rem;
 }
-.teste {
+.tasks {
   grid-area: teste;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 p:nth-child(2) {
   font-weight: 700;
 }
-.teste img {
+.tasks img {
   height: 56px;
   width: 56px;
   margin-bottom: 16px;
